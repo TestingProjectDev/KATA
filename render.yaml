@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: kata-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_NAME
+        value: KATA
+      - key: PREFIX
+        value: !
+      - key: OWNER_NUMBER
+        value: 2348012345678 # Replace with your actual number
+      - key: LOG_LEVEL
+        value: info
+      # Add other environment variables as needed

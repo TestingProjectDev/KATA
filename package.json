@@ -1,0 +1,33 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "KATA - WhatsApp Multi-Device Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "multi-device"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.7.2",
+    "dotenv": "^16.4.5",
+    "pino": "^9.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.3",
+    "wa-sticker-formatter": "^4.4.4",
+    "ytdl-core": "^4.11.5",
+    "tiktok-scraper-without-watermark": "^1.0.6",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
